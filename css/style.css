@@ -14,18 +14,18 @@ p{
     padding-right: 5%;
 }
 
-section{
+.flexabile-container{
     display: flex;
     margin-bottom: 150px;
 }
 
-.intro{
+.half-width{
     width: 50%;
     padding-left: 5%;
 }
 
 
-.intro img{
+.half-width img{
     width: 80%;
 }
 
@@ -60,4 +60,34 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+
+.experience{
+    background-image:url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left; 
+    padding-left: 1%;   
+}
+
+.box{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    height: 450px;
+  
+}
+.blue{
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+
+.orange{
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
