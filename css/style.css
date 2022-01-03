@@ -11,10 +11,12 @@ span{
 }
 p{
     text-align: justify;
+    padding-right: 5%;
 }
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .intro{
@@ -22,9 +24,21 @@ section{
     padding-left: 5%;
 }
 
+
 .intro img{
     width: 80%;
 }
+
+.middle{
+    width: 50%;
+   
+    padding-right: 5%;    
+}
+.middle img{
+    width: 80%;
+    padding-left: 5%;
+}
+
 
 .link-button{
     text-decoration: none;
@@ -38,5 +52,12 @@ section{
 .top-banner{
     background-image:url(../images/top-banner.png);
     background-repeat: no-repeat;
+    
+}
+
+.middle-banner{
+    background-image:url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
     
 }
